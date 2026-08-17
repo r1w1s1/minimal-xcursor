@@ -1,0 +1,5 @@
+[Icon Theme]
+Name=minimal-xcursor
+Comment=Minimal Xcursor theme based on a custom 16x16 PNG
+Inherits=whiteglass
+Directories=cursors
