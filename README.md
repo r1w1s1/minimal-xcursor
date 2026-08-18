@@ -4,10 +4,10 @@ A minimal Linux/X11 Xcursor theme based on a custom 16x16 RGBA PNG.
 
 ![Cursor](cursor.png)
 
-The theme provides `left_ptr` with a hotspot at `(0, 0)` and inherits all
-other cursors from `whiteglass`. The `top_left_arrow` alias points to the
-custom cursor; generic aliases are intentionally not provided so that other
-cursors keep using `whiteglass`.
+The theme provides `left_ptr` with a hotspot at `(0, 0)`. The `pointer` and
+`hand2` aliases also point to the custom cursor, so the same minimal cursor is
+used over links and other clickable elements. Other cursors inherit from
+`whiteglass`.
 
 ## Requirements
 

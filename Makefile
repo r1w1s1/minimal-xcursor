@@ -31,6 +31,8 @@ install: check-install $(CURSOR)
 	install -m 0644 cursor.png $(THEME_DIR)/cursors/cursor.png
 	install -m 0644 $(CURSOR) $(THEME_DIR)/cursors/left_ptr
 	ln -sfn left_ptr $(THEME_DIR)/cursors/top_left_arrow
+	ln -sfn left_ptr $(THEME_DIR)/cursors/pointer
+	ln -sfn left_ptr $(THEME_DIR)/cursors/hand2
 
 test: install
 	XCURSOR_THEME=$(THEME) XCURSOR_SIZE=16 xsetroot -cursor_name left_ptr
